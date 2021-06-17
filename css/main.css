@@ -1,3 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+.download {
+  background-color: antiquewhite;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.download button {
+  max-width: 40rem;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 10rem;
+}
+
+@media screen and (max-width: 450px) {
+  .download button {
+    width: 80%;
+  }
+}
+
+.download__ios {
+  background-color: #26baa4;
+  -webkit-box-shadow: 0 0.2rem 0.1rem 0rem #1d907f;
+          box-shadow: 0 0.2rem 0.1rem 0rem #1d907f;
+}
+
+.download__mac {
+  background-color: #6173ff;
+  -webkit-box-shadow: 0 0.2rem 0.1rem 0rem #2e46ff;
+          box-shadow: 0 0.2rem 0.1rem 0rem #2e46ff;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 1080px;
+  background-color: aliceblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 *,
 ::after,
 ::before {
@@ -5,5 +67,24 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #4c545d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=main.css.map */

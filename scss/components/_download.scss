@@ -1,0 +1,30 @@
+.download {
+  background-color: antiquewhite;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  button {
+    max-width: 40rem;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 10rem;
+    @media screen and (max-width: 450px) {
+      width: 80%;
+    }
+  }
+
+  &__ios {
+    background-color: $primary-cyan;
+    box-shadow: 0 0.2rem 0.1rem 0rem darken($primary-cyan, 10%);
+  }
+
+  &__mac {
+    background-color: $primary-blue;
+    box-shadow: 0 0.2rem 0.1rem 0rem darken($primary-blue, 10%);
+  }
+}
