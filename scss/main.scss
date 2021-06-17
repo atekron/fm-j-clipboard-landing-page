@@ -1,9 +1,17 @@
 @import "./abstracts/typography";
 @import "./abstracts/variables";
+@import "./abstracts/mixins";
 
 @import "./components/download";
 
 @import "./layout/container";
+@import "./layout/header";
+@import "./layout/keep";
+@import "./layout/access";
+@import "./layout/clients";
+@import "./layout/workflow";
+@import "./layout/clipboard";
+@import "./layout/footer";
 
 *,
 ::after,
@@ -14,6 +22,9 @@
 }
 
 body {
+  background-image: url("../images/bg-header-mobile.png");
+  background-repeat: no-repeat;
+  background-position: top left;
   font-family: "Bai Jamjuree", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -22,5 +33,4 @@ body {
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
-  overflow-x: hidden;
 }

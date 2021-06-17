@@ -1,0 +1,35 @@
+@mixin heroImageMobile {
+  &__hero-image {
+    margin: 2rem auto;
+    img {
+      display: block;
+      height: auto;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+@mixin titleWithText {
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  &__text {
+    font-size: 1rem;
+    color: $grey-blue;
+    margin-bottom: 3rem;
+  }
+}
+
+@mixin nameWithDescription {
+  &__name {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  &__description {
+    font-size: 1rem;
+    color: $grey-blue;
+    margin-bottom: 2rem;
+  }
+}

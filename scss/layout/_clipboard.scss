@@ -1,0 +1,5 @@
+.clipboard {
+  @include titleWithText;
+  padding: $section-padding;
+  margin-bottom: $bottom-gutter;
+}

@@ -1,0 +1,15 @@
+.clients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: $section-padding;
+  margin-bottom: $bottom-gutter;
+  &__client {
+    margin: 3rem auto;
+    img {
+      display: block;
+      height: 100%;
+      width: auto;
+    }
+  }
+}

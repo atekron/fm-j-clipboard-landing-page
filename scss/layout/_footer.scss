@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  background-color: whitesmoke;
+  color: gray;
+  padding: $section-padding;
+  &__logo {
+    margin: 4rem;
+    img {
+      display: block;
+      width: 4rem;
+      height: auto;
+      margin: auto;
+    }
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    a {
+      font-size: 1rem;
+      text-decoration: none;
+      margin: 1rem auto;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  &__social {
+    text-align: center;
+    margin: 3rem auto;
+    a {
+      margin: 1rem;
+    }
+  }
+}

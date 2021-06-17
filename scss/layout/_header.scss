@@ -1,0 +1,9 @@
+.header {
+  padding: $section-padding;
+  margin-bottom: $bottom-gutter;
+  margin-top: 4rem;
+  &__logo {
+    margin-bottom: 3rem;
+  }
+  @include titleWithText;
+}

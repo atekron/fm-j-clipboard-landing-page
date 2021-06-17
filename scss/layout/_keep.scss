@@ -1,0 +1,7 @@
+.keep {
+  padding: $section-padding;
+  margin-bottom: $bottom-gutter;
+  @include heroImageMobile;
+  @include titleWithText;
+  @include nameWithDescription;
+}
