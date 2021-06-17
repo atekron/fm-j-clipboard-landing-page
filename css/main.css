@@ -234,7 +234,6 @@
 .footer {
   width: 100%;
   background-color: whitesmoke;
-  color: gray;
   padding: 1rem;
 }
 
@@ -264,6 +263,7 @@
 }
 
 .footer__links a {
+  color: gray;
   font-size: 1rem;
   text-decoration: none;
   margin: 1rem auto;
