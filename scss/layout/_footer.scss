@@ -23,6 +23,8 @@
       margin: 1rem auto;
       &:hover {
         text-decoration: underline;
+        text-underline-offset: 0.2rem;
+        color: $primary-cyan;
       }
     }
   }
