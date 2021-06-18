@@ -1,7 +1,9 @@
 .access {
+  max-width: $max-width;
   padding: $section-padding;
   margin-bottom: $bottom-gutter;
 
   @include heroImageMobile;
   @include titleWithText;
+  @include desktopTitleWithText;
 }

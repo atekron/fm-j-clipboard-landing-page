@@ -1,7 +1,26 @@
 .keep {
+  max-width: $max-width;
   padding: $section-padding;
   margin-bottom: $bottom-gutter;
   @include heroImageMobile;
   @include titleWithText;
+  @include desktopTitleWithText;
   @include nameWithDescription;
+  @media screen and (min-width: 800px) {
+    &__main {
+      position: relative;
+      display: flex;
+    }
+    &__hero-image {
+      position: relative;
+      right: 10rem;
+      top: -2rem;
+    }
+    &__features {
+      width: 50%;
+      margin-top: 3rem;
+      margin-left: auto;
+      text-align: left;
+    }
+  }
 }

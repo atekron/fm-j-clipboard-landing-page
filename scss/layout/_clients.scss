@@ -8,8 +8,20 @@
     margin: 3rem auto;
     img {
       display: block;
-      height: 100%;
+      height: 3rem;
       width: auto;
+    }
+  }
+  @media screen and (min-width: 1080px) {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    max-width: 1280px;
+    flex-direction: row;
+    justify-content: space-between;
+    &__client {
+      margin-left: 0;
+      margin-right: 0;
     }
   }
 }

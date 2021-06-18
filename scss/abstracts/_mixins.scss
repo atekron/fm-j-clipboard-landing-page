@@ -22,6 +22,19 @@
   }
 }
 
+@mixin desktopTitleWithText {
+  @media screen and (min-width: 750px) {
+    &__title {
+      font-size: 2.5rem;
+    }
+    &__text {
+      max-width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
 @mixin nameWithDescription {
   &__name {
     font-size: 1.5rem;

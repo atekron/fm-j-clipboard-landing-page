@@ -1,5 +1,6 @@
 .clipboard {
   @include titleWithText;
+  @include desktopTitleWithText;
   padding: $section-padding;
   margin-bottom: $bottom-gutter;
 }
